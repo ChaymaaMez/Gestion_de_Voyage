@@ -1,0 +1,31 @@
+/* Created by TopStyle Trial - www.topstyle4.com */
+  
+body{
+	margin:0px;
+	padding: 0px;
+	background-color: #cfcbd2;
+}
+.tab {
+	background-color: white;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+.tab th,td{
+	padding: 5px;
+}
+.bouton{
+	width: 150px;
+	height: 25px;
+	font-size: 17px;
+	background-color: #051960;
+	color: white;
+}
+
+fieldset{
+	width: 50%;
+	border:3px solid black;
+}
+a{
+	color: white;
+	text-decoration: none;
+}

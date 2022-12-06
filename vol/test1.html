@@ -1,0 +1,31 @@
+<<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+<p align="center"> 
+  <input type="image" src="site-img/btn-up.png" name="bouton_submit" value="Envoyer le fichier"> 
+  </p>
+  <script lang="JavaScript">  
+function my_function(){  
+ document.getElementById('loading').style.display = 'block';  
+ getElementById('container').innerHTML = ('Upload en cours, merci de patienter...');   
+ return true;  
+}  
+</script>  
+<style>  
+.monitor{  
+ display: none;  
+}  
+</style>  
+
+<p align="center">      
+  <input type="image" src="site-img/btn-up.png" name="bouton_submit" onClick="my_function();" value="Envoyer le fichier"/>      
+  </p>      
+<div id="container">     
+    <img class="monitor" id="loading" src="ajax-loader.gif"></img>Choisissez votre fichier     
+</div>
+</body>
+</html>
